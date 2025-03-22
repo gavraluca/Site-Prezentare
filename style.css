@@ -1,0 +1,191 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c6e3ff;
+    color: rgb(23, 39, 54);
+    text-align: center;
+
+}
+
+header {
+    background-color: #00BFFF;
+    color: white;
+    padding: 16px 0;
+}
+
+
+.toggle_settings
+{
+    background-color: #143b47;
+    color: white;
+    padding: 16px 0;
+}
+
+nav ul
+{
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li
+{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a
+{
+    color: rgb(14, 65, 112);
+    text-decoration: none;
+}
+
+.profile
+{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+
+}
+
+table
+{
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+
+}
+
+th
+{
+    padding: 10px;
+    border: 2px solid rgb(183, 219, 252);
+    text-align: center;
+    background-color : #056f92;
+    color: white;
+}
+td
+{
+    padding: 10px;
+    border: 2px solid rgb(183, 219, 252);
+    text-align: center;
+    background-color : #00BFFF;
+    color: black;
+}
+
+header ul
+{
+    list-style: none;         
+    padding: 10;
+    margin: 10;                    
+
+}
+
+header ul li a {
+    text-decoration: none;   
+    color: white;            
+    background-color: #00BFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+
+.my_abilities
+{
+    margin: 30px auto;
+    width: 70%;
+    text-align: center
+    
+}
+
+
+.my_abilities ul
+{
+    list-style-type: none;
+    padding: 20px;
+    background: #056f92;
+    margin: 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(45, 195, 255, 0.5);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.my_abilities ul li
+{
+    margin: 5px 0;
+    padding: 10px;
+    background: #00BFFF;
+    border-radius: 20px;
+    transition: background 0.5s ease;
+
+}
+
+.description
+{
+    margin: 5px;
+
+}
+
+
+
+
+button
+{
+    padding: 10px;
+    margin: 8px;
+    border: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+
+.my_abilities ul li:hover
+{
+    background: #23bdf0;
+}
+
+#hide
+{
+    background-color: #00BFFF;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: background 0.7s ease, transform 0.7s ease;
+}
+
+#hide:hover
+{
+    background-color: #056f92;
+    transform: scale(1.03);
+
+}
+
+header ul li a:hover {
+    background-color: #0077b6; 
+    color: #fff;              
+}
+
+button:hover
+{
+    color: white;
+    background-color: 	#2fafda;
+
+}
+
+.dark_mode
+{
+    background-color: black;
+    color: white;
+
+}
+
+.hidden
+{
+    display: none;
+}
