@@ -1,1 +1,6 @@
-I designed this site using HTML, CSS and Java Script.
+This is a project for my User Interface Design class. 
+This site is about ME.
+Technologies used:
+- HTML
+- CSS
+- Java Script
